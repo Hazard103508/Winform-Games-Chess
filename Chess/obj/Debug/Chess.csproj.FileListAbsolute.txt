@@ -1,0 +1,58 @@
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Chess.exe.config
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Chess.exe
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Chess.pdb
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Game.dll
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Game.pdb
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.csprojResolveAssemblyReference.cache
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.Properties.Resources.resources
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.csproj.GenerateResource.cache
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.csproj.CopyComplete
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.exe
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.pdb
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.Demo.resources
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\Black_Bishop.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\Black_King.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\Black_Knight.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\Black_Pawn.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\Black_Queen.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\Black_Rook.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\White_Bishop.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\White_King.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\White_Knight.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\White_Pawn.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\White_Queen.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\White_Rook.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\Board.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\TileMove.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\bin\Debug\Assets\TileSelected.png
+D:\Agustin\Documents\My Documents\Zero Soft\Projects\Games\Zero_003 IA\Chess\Chess\obj\Debug\Chess.PieceSelector.resources
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\Board.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\Black_Bishop.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\Black_King.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\Black_Knight.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\Black_Pawn.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\Black_Queen.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\Black_Rook.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\TileMove.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\TileSelected.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\White_Bishop.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\White_King.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\White_Knight.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\White_Pawn.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\White_Queen.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Assets\White_Rook.png
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Chess.exe.config
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Chess.exe
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Chess.pdb
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Game.dll
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\bin\Debug\Game.pdb
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.csprojAssemblyReference.cache
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.Demo.resources
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.PieceSelector.resources
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.Properties.Resources.resources
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.csproj.GenerateResource.cache
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.csproj.CopyComplete
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.exe
+D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.pdb
