@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,12 +24,12 @@ namespace Chess
         {
             InitializeComponent();
 
-            Initialize();
             Start_Match();
         }
         #endregion
 
         #region Properties
+        public int TileSize { get; set; }
         /// <summary>
         /// Recursos de imagenes a usar en el juego
         /// </summary>
@@ -87,8 +88,9 @@ namespace Chess
         }
         private void Demo_Canvas_MouseUp(object sender, MouseEventArgs e)
         {
+            int _celSize = this.TileSize + 5; // cada celda tiene un tamaños de  AxB + 5x5 de borde
             Point _mouseLocation = new Point(e.Location.X - 5, e.Location.Y - 5); // resto los bordes del tablero
-            var cell_Location = new Point(e.Location.X / 105, e.Location.Y / 105); // cada celda tiene un tamaños de  100x100 + 5x5 de borde
+            var cell_Location = new Point(e.Location.X / _celSize, e.Location.Y / _celSize); 
             // Obtengo la coordenada del tablero donde se realizo click
 
             if (!Move_Piece(cell_Location)) // si existe una pieza seleccionada, intenta moverla a la celda donde se realizo click
@@ -104,27 +106,33 @@ namespace Chess
         /// <summary>
         /// Inicializa el juego cargando los recursos
         /// </summary>
-        private void Initialize()
+        private void Initialize(int size)
         {
+            Size _size = new Size(size, size);
             string directory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets");
             this.Resources = new Resources()
             {
-                Image_BoardTiles = Load_Image($"{directory}/Board.png"),
-                Image_MoveTiles = Load_Image($"{directory}/TileMove.png"),
-                Image_SelectedTile = Load_Image($"{directory}/TileSelected.png"),
-                Image_WhitePawn = Load_Image($"{directory}/White_Pawn.png"),
-                Image_White_Rook = Load_Image($"{directory}/White_Rook.png"),
-                Image_White_Knight = Load_Image($"{directory}/White_Knight.png"),
-                Image_White_Bishop = Load_Image($"{directory}/White_Bishop.png"),
-                Image_White_Queen = Load_Image($"{directory}/White_Queen.png"),
-                Image_White_King = Load_Image($"{directory}/White_King.png"),
-                Image_BlackPawn = Load_Image($"{directory}/Black_Pawn.png"),
-                Image_Black_Rook = Load_Image($"{directory}/Black_Rook.png"),
-                Image_Black_Knight = Load_Image($"{directory}/Black_Knight.png"),
-                Image_Black_Bishop = Load_Image($"{directory}/Black_Bishop.png"),
-                Image_Black_Queen = Load_Image($"{directory}/Black_Queen.png"),
-                Image_Black_King = Load_Image($"{directory}/Black_King.png")
+                Image_BlackTiles = ResizeImage(Load_Image($"{directory}/TileBlack.png"), _size),
+                Image_WhiteTiles = ResizeImage(Load_Image($"{directory}/TileWhite.png"), _size),
+                Image_MoveTiles = ResizeImage(Load_Image($"{directory}/TileMove.png"), _size),
+                Image_SelectedTile = ResizeImage(Load_Image($"{directory}/TileSelected.png"), _size),
+                Image_WhitePawn = ResizeImage(Load_Image($"{directory}/White_Pawn.png"), _size),
+                Image_White_Rook = ResizeImage(Load_Image($"{directory}/White_Rook.png"), _size),
+                Image_White_Knight = ResizeImage(Load_Image($"{directory}/White_Knight.png"), _size),
+                Image_White_Bishop = ResizeImage(Load_Image($"{directory}/White_Bishop.png"), _size),
+                Image_White_Queen = ResizeImage(Load_Image($"{directory}/White_Queen.png"), _size),
+                Image_White_King = ResizeImage(Load_Image($"{directory}/White_King.png"), _size),
+                Image_BlackPawn = ResizeImage(Load_Image($"{directory}/Black_Pawn.png"), _size),
+                Image_Black_Rook = ResizeImage(Load_Image($"{directory}/Black_Rook.png"), _size),
+                Image_Black_Knight = ResizeImage(Load_Image($"{directory}/Black_Knight.png"), _size),
+                Image_Black_Bishop = ResizeImage(Load_Image($"{directory}/Black_Bishop.png"), _size),
+                Image_Black_Queen = ResizeImage(Load_Image($"{directory}/Black_Queen.png"), _size),
+                Image_Black_King = ResizeImage(Load_Image($"{directory}/Black_King.png"), _size)
             };
+        }
+        public static Image ResizeImage(Image imgToResize, Size size)
+        {
+            return (Image)(new Bitmap(imgToResize, size));
         }
         /// <summary>
         /// Inicia una nueva partida 
@@ -133,7 +141,13 @@ namespace Chess
         {
             this.ActionLog = new List<ActionLog>();
             this.Pieces = new List<Piece_Base>();
-            this.Board = new Board(this.Resources.Image_BoardTiles, this.Resources.Image_MoveTiles);
+
+            int tileSize = 0;
+            int.TryParse(txtSize.Text, out tileSize);
+            this.TileSize = tileSize != 0 ? tileSize : 100;
+
+            Initialize(this.TileSize);
+            this.Board = new Board(this.Resources.Image_WhiteTiles, this.Resources.Image_BlackTiles, this.Resources.Image_MoveTiles, this.TileSize);
             this.GameState = State.Normal;
 
             //Blancas
@@ -223,8 +237,8 @@ namespace Chess
         /// <returns></returns>
         private Point Get_PiecePosition(Point location)
         {
-            int _x = (location.X * 100) + 5 * (location.X + 1);
-            int _y = (location.Y * 100) + 5 * (location.Y + 1);
+            int _x = (location.X * this.TileSize) + 5 * (location.X + 1);
+            int _y = (location.Y * this.TileSize) + 5 * (location.Y + 1);
             return new Point(_x, _y);
         }
         /// <summary>

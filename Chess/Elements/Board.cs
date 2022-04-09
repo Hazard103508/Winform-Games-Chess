@@ -14,17 +14,20 @@ namespace Chess.Elements
     public class Board : Sprite
     {
         #region Constructor
-        public Board(Image boardImage, Image moveTileImage) : base(boardImage, new Point())
+        public Board(Image whiteTileImage, Image blackTileImage, Image moveTileImage, int tileSize) : base(null, new Point())
         {
+            this.TileSize = tileSize;
             this.Move_Image = moveTileImage;
+            this.Image_BlackTiles = blackTileImage;
+            this.Image_WhiteTiles = whiteTileImage;
 
             Cells = new BoardCell[8, 8];
 
             for (int x = 0; x < 8; x++)
                 for (int y = 0; y < 8; y++)
                 {
-                    int _x = (x * 100) + 5 * (x + 1);
-                    int _y = (y * 100) + 5 * (y + 1);
+                    int _x = (x * this.TileSize) + 5 * (x + 1);
+                    int _y = (y * this.TileSize) + 5 * (y + 1);
 
                     Cells[x, y] = new BoardCell()
                     {
@@ -36,6 +39,18 @@ namespace Chess.Elements
         #endregion
 
         #region Properties
+        /// <summary>
+        /// Tamaño de cada celda
+        /// </summary>
+        private int TileSize { get; set; }
+        /// <summary>
+        /// Celda negra del tablero
+        /// </summary>
+        public Image Image_BlackTiles { get; set; }
+        /// <summary>
+        /// Celda blanca del tablero
+        /// </summary>
+        public Image Image_WhiteTiles { get; set; }
         /// <summary>
         /// Imagen a dibujar en celdas que permiten el movimiento de la pieza
         /// </summary>
@@ -67,6 +82,9 @@ namespace Chess.Elements
             for (int x = 0; x < 8; x++)
                 for (int y = 0; y < 8; y++)
                 {
+                    Image _tile = (x + y) % 2 == 0 ? this.Image_WhiteTiles : this.Image_BlackTiles;
+                    drawHandler.Draw(_tile, Cells[x, y].ScreenPosition);
+
                     if (Cells[x, y].CanMove)
                         drawHandler.Draw(this.Move_Image, Cells[x, y].ScreenPosition);
                 }

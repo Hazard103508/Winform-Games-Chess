@@ -56,3 +56,33 @@ D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Ch
 D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.csproj.CopyComplete
 D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.exe
 D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Chess\obj\Debug\Chess.pdb
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\Black_Bishop.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\Black_King.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\Black_Knight.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\Black_Pawn.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\Black_Queen.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\Black_Rook.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\TileMove.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\TileSelected.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\White_Bishop.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\White_King.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\White_Knight.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\White_Pawn.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\White_Queen.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\White_Rook.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Chess.exe.config
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Chess.exe
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Chess.pdb
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Game.dll
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Game.pdb
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.csproj.AssemblyReference.cache
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.Demo.resources
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.PieceSelector.resources
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.Properties.Resources.resources
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.csproj.GenerateResource.cache
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.csproj.CopyComplete
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.exe
+D:\RossoGames\Projects\Winforms\Chess\Chess\obj\Debug\Chess.pdb
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\TileBlack.png
+D:\RossoGames\Projects\Winforms\Chess\Chess\bin\Debug\Assets\TileWhite.png

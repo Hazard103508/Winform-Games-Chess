@@ -45,3 +45,13 @@ D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Game\obj\Debug\Gam
 D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
 D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Game\obj\Debug\Game.dll
 D:\Agustin\Documents\My Documents\Zero Soft\Web\03_Chess\Code\Game\obj\Debug\Game.pdb
+D:\RossoGames\Projects\Winforms\Chess\Game\bin\Debug\Game.dll
+D:\RossoGames\Projects\Winforms\Chess\Game\bin\Debug\Game.pdb
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.Base.resources
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.Game.resources
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.Properties.Resources.resources
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.csproj.GenerateResource.cache
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.dll
+D:\RossoGames\Projects\Winforms\Chess\Game\obj\Debug\Game.pdb

@@ -10,7 +10,7 @@ namespace Game.Elements
     /// <summary>
     /// Clase con la logica de dibujado
     /// </summary>
-    public class DrawHandler: IDisposable
+    public class DrawHandler : IDisposable
     {
         public DrawHandler(int width, int height)
         {
@@ -39,7 +39,8 @@ namespace Game.Elements
         /// <param name="position">Posicion de la imagen en pantalla</param>
         public void Draw(Image image, Point position)
         {
-            Graphics.DrawImage(image, position.X, position.Y, image.Width, image.Height);
+            if (image != null)
+                Graphics.DrawImage(image, position.X, position.Y, image.Width, image.Height);
         }
     }
 }

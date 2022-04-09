@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 
 namespace Chess.Elements
 {
@@ -13,9 +8,13 @@ namespace Chess.Elements
     public class Resources
     {
         /// <summary>
-        /// Imagen del tablero
+        /// Celda negra del tablero
         /// </summary>
-        public Image Image_BoardTiles { get; set; }
+        public Image Image_BlackTiles { get; set; }
+        /// <summary>
+        /// Celda blanca del tablero
+        /// </summary>
+        public Image Image_WhiteTiles { get; set; }
         /// <summary>
         /// Imagen de la celda de color celeste que se muestra cuando la celda acepta el movimiento de la pieza seleccionada
         /// </summary>

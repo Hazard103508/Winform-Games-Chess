@@ -37,6 +37,9 @@
             this.lblMoves = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtSize = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -82,7 +85,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(3, 25);
+            this.btnStart.Location = new System.Drawing.Point(3, 70);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(111, 23);
             this.btnStart.TabIndex = 3;
@@ -94,7 +97,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(890, 98);
+            this.label1.Location = new System.Drawing.Point(890, 152);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 25);
             this.label1.TabIndex = 4;
@@ -124,7 +127,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblPlayer);
-            this.panel1.Location = new System.Drawing.Point(856, 126);
+            this.panel1.Location = new System.Drawing.Point(856, 180);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(121, 30);
             this.panel1.TabIndex = 5;
@@ -133,13 +136,42 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.txtSize);
             this.panel2.Controls.Add(this.rbBlack);
             this.panel2.Controls.Add(this.rbWhite);
             this.panel2.Controls.Add(this.btnStart);
             this.panel2.Location = new System.Drawing.Point(856, 37);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(121, 53);
+            this.panel2.Size = new System.Drawing.Size(121, 98);
             this.panel2.TabIndex = 5;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(99, 47);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(15, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "%";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 47);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(30, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Size:";
+            // 
+            // txtSize
+            // 
+            this.txtSize.Location = new System.Drawing.Point(38, 44);
+            this.txtSize.Name = "txtSize";
+            this.txtSize.Size = new System.Drawing.Size(57, 20);
+            this.txtSize.TabIndex = 4;
+            this.txtSize.Text = "75";
             // 
             // label3
             // 
@@ -156,7 +188,7 @@
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.lblMoves);
-            this.panel3.Location = new System.Drawing.Point(856, 192);
+            this.panel3.Location = new System.Drawing.Point(856, 246);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(121, 30);
             this.panel3.TabIndex = 5;
@@ -165,7 +197,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(881, 164);
+            this.label4.Location = new System.Drawing.Point(881, 218);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 25);
             this.label4.TabIndex = 4;
@@ -176,7 +208,7 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.lblCheck);
-            this.panel4.Location = new System.Drawing.Point(856, 262);
+            this.panel4.Location = new System.Drawing.Point(856, 316);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(121, 30);
             this.panel4.TabIndex = 5;
@@ -194,7 +226,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(882, 234);
+            this.label5.Location = new System.Drawing.Point(882, 288);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(68, 25);
             this.label5.TabIndex = 4;
@@ -203,7 +235,7 @@
             // btnUndo
             // 
             this.btnUndo.Image = global::Chess.Properties.Resources.Actions_blue_arrow_undo_icon;
-            this.btnUndo.Location = new System.Drawing.Point(896, 311);
+            this.btnUndo.Location = new System.Drawing.Point(896, 365);
             this.btnUndo.Name = "btnUndo";
             this.btnUndo.Size = new System.Drawing.Size(40, 40);
             this.btnUndo.TabIndex = 6;
@@ -246,9 +278,9 @@
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
             this.Controls.SetChildIndex(this.label3, 0);
-            this.Controls.SetChildIndex(this.Canvas, 0);
             this.Controls.SetChildIndex(this.btnUndo, 0);
             this.Controls.SetChildIndex(this.btnInfo, 0);
+            this.Controls.SetChildIndex(this.Canvas, 0);
             ((System.ComponentModel.ISupportInitialize)(this.Canvas)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -278,6 +310,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnUndo;
         private System.Windows.Forms.Button btnInfo;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtSize;
+        private System.Windows.Forms.Label label6;
     }
 }
 
